@@ -1,0 +1,29 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, "8.0"
+
+target "PlanChatingDemo" do
+
+pod 'AFNetworking'
+pod 'SDWebImage'
+
+pod 'MJExtension'
+pod 'GTMBase64'
+pod 'JSONModel'
+
+#带小数点的数字键盘
+pod 'MMNumberKeyboard'
+
+pod 'pop'
+pod 'FMDB'
+pod 'Masonry'
+pod 'MJRefresh'
+
+pod 'HMSegmentedControl'
+pod 'TSMessages'
+pod 'MBProgressHUD'
+pod 'SVProgressHUD'
+
+
+end
+
+

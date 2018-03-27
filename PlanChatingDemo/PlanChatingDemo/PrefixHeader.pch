@@ -1,0 +1,31 @@
+//
+//  PrefixHeader.pch
+//  IMDemo
+//
+//  Created by volientDuan on 2018/3/25.
+//  Copyright © 2018年 volientDuan. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+#ifdef __OBJC__
+
+#import "Macros.h"
+// pods
+#import <Masonry/Masonry.h>
+#import <SDWebImage/UIImageView+WebCache.h>
+#import <SDWebImage/UIButton+WebCache.h>
+
+#import "AppDelegate.h"
+#import "Tool.h"
+#import "HUDHelper.h"
+#import "Category.h"
+#import "TIMHeader.h"
+#import "TIMHelper.h"
+#import "BaseViewController.h"
+
+#endif
+
+
+
+#endif /* PrefixHeader_pch */
